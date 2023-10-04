@@ -64,6 +64,7 @@ const Skills = () => {
 
       <image src={HTML} />
 
+      {/* Change the text to black if the current theme mode is in Light Moe */}
       <div className="mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {techStack.map(({ id, src, title, style }) => (
