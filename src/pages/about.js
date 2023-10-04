@@ -65,7 +65,7 @@ export default function About() {
                 ABOUT ME
               </h2>
               <p className="font-medium ">
-                Hey there, I'm <strong>Manny</strong> a Junior Software
+                Hey there, I&apos;m <strong>Manny</strong> a Junior Software
                 Engineer with a passion for building web applications and a
                 versatile skill set that includes React, Vue, Tailwind,
                 Supabase, and experience with various cloud services like AWS.
@@ -80,7 +80,7 @@ export default function About() {
                 expertise to deliver exceptional results.
               </p>
               <p className="font-medium">
-                Outside of my professional life, you'll find me working on cars
+                Outside of my professional life, you&apos;ll find me working on cars
                 and assisting others with their automotive projects. I enjoy
                 sharing my passion and knowledge, making the experience both
                 enjoyable and educational. I am excited to connect, collaborate,

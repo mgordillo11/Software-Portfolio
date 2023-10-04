@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Manny's Portfolio</title>
+        <title>Manny&apos;s Portfolio</title>
         <meta
           name="description"
           content="See my latest experience, projects, and overall journey as a developer."
@@ -43,9 +43,9 @@ export default function Home() {
               />
               <p className="my-4 text-base font-medium md:text-sm sm:!text-xs">
                 I am a full-stack developer with a passion for learning new
-                frameworks and technologies. Even though I'm still early in my
-                professional career, I'm always looking for new opportunities to
-                learn and grow as a developer.
+                frameworks and technologies. Even though I&apos;m still early in
+                my professional career, I&apos;m always looking for new
+                opportunities to learn and grow as a developer.
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
