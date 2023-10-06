@@ -53,13 +53,6 @@ const Education = () => {
             place="Brigham Young University (BYU)"
             info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
           />
-
-          <Details
-            type="Online Coursework"
-            time="2016-2020"
-            place="Coursera and edX"
-            info="Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine Learning Engineering."
-          />
         </ul>
       </div>
     </div>
