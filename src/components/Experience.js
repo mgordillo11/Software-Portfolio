@@ -74,6 +74,15 @@ const Experience = () => {
           />
 
           <Details
+            position="Software Engineer"
+            company="Roofworx"
+            companyLink="https://roofworx.io/"
+            time="August 2023 - April 2023 "
+            address="Remote"
+            work="Altered and contributed to their backend services that involved Google Cloud Platform Services, Firebase, and Node.js. I also worked on their frontend services that involved React and Typescript."
+          />
+
+          <Details
             position="Computer Science Instructor"
             company="Juni Learning"
             companyLink="https://junilearning.com/"

@@ -7,9 +7,19 @@ import CSS from "../../public/images/skills/css.png";
 import JavaScript from "../../public/images/skills/javascript.png";
 import NextJS from "../../public/images/skills/nextjs.png";
 import Github from "../../public/images/skills/github.png";
+import GithubBlack from "../../public/images/skills/github_black.png";
 import Tailwind from "../../public/images/skills/tailwind.png";
 
+import { useThemeSwitch } from "./Hooks/useThemeSwitch";
+import { useState, useEffect } from "react";
+
 const Skills = () => {
+  // Initialize mode from localStorage or a default value
+  const [mode, setMode] = useThemeSwitch();
+
+  // Determine the image source based on the mode
+  const imageSrc = mode === "dark" ? GithubBlack : Github;
+
   const techStack = [
     {
       id: 1,
@@ -45,13 +55,13 @@ const Skills = () => {
       id: 6,
       src: NextJS,
       title: "NextJS",
-      style: "shadow-white",
+      style: "dark:shadow-white shadow-black",
     },
     {
       id: 7,
-      src: Github,
+      src: imageSrc,
       title: "Github",
-      style: "shadow-gray-400",
+      style: "dark:shadow-gray-400 shadow-gray-600",
     },
   ];
 
@@ -65,7 +75,11 @@ const Skills = () => {
       <image src={HTML} />
 
       {/* Change the text to black if the current theme mode is in Light Moe */}
-      <div className="mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+      <div
+        className="mx-auto p-4 flex flex-col justify-center w-full h-full text-black
+      dark:text-light
+      "
+      >
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {techStack.map(({ id, src, title, style }) => (
             <div
