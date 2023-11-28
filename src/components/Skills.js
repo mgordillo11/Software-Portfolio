@@ -9,16 +9,17 @@ import NextJS from "../../public/images/skills/nextjs.png";
 import Github from "../../public/images/skills/github.png";
 import GithubBlack from "../../public/images/skills/github_black.png";
 import Tailwind from "../../public/images/skills/tailwind.png";
+import Vue from "../../public/images/skills/vue.png";
 
 import { useThemeSwitch } from "./Hooks/useThemeSwitch";
 import { useState, useEffect } from "react";
 
 const Skills = () => {
   // Initialize mode from localStorage or a default value
-  const [mode, setMode] = useThemeSwitch();
+  const [mode] = useThemeSwitch();
 
   // Determine the image source based on the mode
-  const imageSrc = mode === "dark" ? GithubBlack : Github;
+  let imageSrc = mode === "light" ? GithubBlack : Github;
 
   const techStack = [
     {
@@ -59,9 +60,15 @@ const Skills = () => {
     },
     {
       id: 7,
-      src: imageSrc,
+      src: mode === "light" ? GithubBlack : Github,
       title: "Github",
       style: "dark:shadow-gray-400 shadow-gray-600",
+    },
+    {
+      id: 8,
+      src: Vue,
+      title: "Vue",
+      style: "shadow-green-500",
     },
   ];
 
@@ -71,8 +78,6 @@ const Skills = () => {
       <h2 className="font-bold text-8xl mt-64 w-full text-center md:text-6xl md:mt-32">
         Skills
       </h2>
-
-      <image src={HTML} />
 
       {/* Change the text to black if the current theme mode is in Light Moe */}
       <div

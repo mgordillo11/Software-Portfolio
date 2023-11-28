@@ -5,7 +5,8 @@ import { motion } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import proj1 from "../../public/images/projects/Gordillo-Landscaping-logos.jpeg";
+import proj1 from "../../public/images/projects/BetterKritic.png";
+import proj2 from "../../public/images/projects/GordilloLandscaping.png";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
@@ -39,6 +40,7 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
               (max-width: 1200px) 50vw,
               33vw"
           priority
+          quality={100}
         />
       </Link>
       <div className="flex w-1/2 flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6">
@@ -62,7 +64,7 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
             href={github}
             target={"_blank"}
             className="w-10"
-            aria-label="Crypto Screener Application github link"
+            aria-label="Github link"
           >
             <GithubIcon />
           </Link>
@@ -73,7 +75,7 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
              bg-dark p-2 px-6 text-lg font-semibold text-light dark:bg-light dark:text-dark 
              sm:px-4 sm:text-base
             "
-            aria-label="Crypto Screener Application"
+            aria-label="Project link"
           >
             Visit Project
           </Link>
@@ -176,11 +178,21 @@ export default function Projects() {
             <div className="col-span-12">
               <FeaturedProject
                 type="Featured Project"
+                title="BetterKritic"
+                summary="A website that I built with a team of 2 other developers assisting me, in order to make reviewing of movies and tv shows easier and more accessible to the public. Built with Vue 3, Typescript, Tailwind CSS, and Supabase."
+                img={proj1}
+                link="https://www.betterkritic.com/"
+                github=""
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                type="Company Website"
                 title="Gordillo Landscaping"
                 summary="A website company for my father to use for his landscaping business, built with Next.js, Tailwind CSS, and Supabase."
-                img={proj1}
-                link="#"
-                github="#"
+                img={proj2}
+                link="https://gordillo-landscaping.vercel.app/"
+                github="https://github.com/mgordillo11/gordillo-landscaping"
               />
             </div>
           </div>

@@ -59,7 +59,7 @@ const Experience = () => {
             position="Full Stack Engineer Intern"
             company="BetterKritic"
             companyLink="https://google.com"
-            time="Aug 2023 - Present"
+            time="Aug 2023 - November 2023"
             address="Remote"
             work="I have integrated external platforms to enhance storage, security, and API usage, while also contributing to UI/UX innovations that streamline user experiences and boost productivity."
           />
