@@ -56,6 +56,14 @@ const Experience = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
+            position="Technical Project Manager"
+            company="Nebula"
+            time="Jan 2024 - Present"
+            address="Remote"
+            work="I am guiding a team of Brigham Young University students in developing a React Native application. My role involves mentoring in coding, overseeing project progress, and ensuring the app's effective integration with Nebula's features, actively turning theoretical ideas into a practical, user-friendly solution."
+          />
+
+          <Details
             position="Full Stack Engineer Intern"
             company="BetterKritic"
             companyLink="https://google.com"

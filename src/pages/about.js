@@ -66,12 +66,12 @@ export default function About() {
               </h2>
               <p className="font-medium ">
                 Hey there, I&apos;m <strong>Manny</strong> a Junior Software
-                Engineer with a passion for building web applications and a
-                versatile skill set that includes React, Vue, Tailwind,
-                Supabase, and experience with various cloud services like AWS.
-                With over two years of industry experience, I am eager to expand
-                my knowledge, skills, and capabilities while collaborating with
-                others.
+                Engineer with a passion for building web and mobile
+                applications. I have a versatile skill set that includes React,
+                React Native, Java, Next JS, Vue, Tailwind, Supabase, and experience
+                with various cloud services like AWS. With over two years of
+                industry experience, I am eager to expand my knowledge, skills,
+                and capabilities while collaborating with others.
               </p>
               <p className="my-4 font-medium">
                 I thrive in collaborative environments and believe in
@@ -80,11 +80,11 @@ export default function About() {
                 expertise to deliver exceptional results.
               </p>
               <p className="font-medium">
-                Outside of my professional life, you&apos;ll find me working on cars
-                and assisting others with their automotive projects. I enjoy
-                sharing my passion and knowledge, making the experience both
-                enjoyable and educational. I am excited to connect, collaborate,
-                and continue my journey in the world of technology.
+                Outside of my professional life, you&apos;ll find me working on
+                cars and assisting others with their automotive projects. I
+                enjoy sharing my passion and knowledge, making the experience
+                both enjoyable and educational. I am excited to connect,
+                collaborate, and continue my journey in the world of technology.
               </p>
             </div>
             <div
