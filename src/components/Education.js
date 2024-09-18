@@ -48,6 +48,12 @@ const Education = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4">
           <Details
+            type="Masters of Science in Computer Science"
+            time="2024-2027"
+            place="Georgia Institute of Technology"
+            info="Relevant courses included Operating System, Computer Networks, and Cloud Computing."
+          />
+          <Details
             type="Bachelor of Science in Computer Science"
             time="2018-2023"
             place="Brigham Young University (BYU)"

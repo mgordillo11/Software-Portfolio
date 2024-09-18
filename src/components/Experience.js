@@ -50,15 +50,25 @@ const Experience = () => {
 
       <div ref={ref} className="relative w-[75%] mx-auto lg:w-[90%] md:w-full">
         <motion.div
-          className="absolute left-9 top-0 w-[4px] md:w-[2px] md:left-[30px] xs:left-[20px] h-full bg-dark 
+          className="absolute left-9 top-0 w-[4px] md:w-[2px] md:left-[30px] xs:left-[20px] h-full bg-dark
             origin-top  dark:bg-primaryDark dark:shadow-3xl"
           style={{ scaleY: scrollYProgress }}
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
+            position="React Native Developer"
+            company="Subtract"
+            time="May 2024 - August 2024"
+            address="Remote"
+            work="Led the development of Subtract's mobile app, accelerating feature implementation and advancing the project towards
+            its beta release. Implemented user-friendly designs and conducted alpha testing with current and potential clients, significantly
+            contributing to the app's progress and ensuring readiness for the beta phase."
+          />
+
+          <Details
             position="Technical Project Manager"
             company="Nebula"
-            time="Jan 2024 - Present"
+            time="Jan 2024 - April 2024"
             address="Remote"
             work="I am guiding a team of Brigham Young University students in developing a React Native application. My role involves mentoring in coding, overseeing project progress, and ensuring the app's effective integration with Nebula's features, actively turning theoretical ideas into a practical, user-friendly solution."
           />
@@ -73,7 +83,7 @@ const Experience = () => {
           />
 
           <Details
-            position="Back-End and Low-Code Developer"
+            position="Software Developer"
             company="BYU OIT"
             companyLink="https://oit.byu.edu/"
             time="Jan 2022 - July 2023"
